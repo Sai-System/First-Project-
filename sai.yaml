@@ -1,4 +1,4 @@
-apiVersion: v1
+iapiVersion: v1
 kind: Pod
 metadata:
   name: nginx-numeric-toleration
@@ -12,6 +12,6 @@ spec:
   tolerations:
     - key: "servicelevel.organization.example/agreed-service-level"
       operator: "Gt"
-      value: "900"
+      value: "100"
       effect: "NoSchedule"
 
